@@ -1,0 +1,24 @@
+# Ignore all CSV files by default
+*.csv
+
+# EXCEPTION: Do NOT ignore files ending with _tota.csv (green dots)
+!*_tota.csv
+
+# EXCEPTION: Do NOT ignore vol_oi_1_min_tracked.csv (green dot)
+!vol_oi_1_min_tracked.csv
+
+# Ignore database files (red dots)
+*.db
+
+# Ignore specific JSON files (red dots)
+last_interval.json
+
+# Ignore specific text files (red dots)
+archival_last_date.txt
+last_date.txt
+
+# Ignore the 'temp' directory (red dashed line)
+temp/
+
+# Ignore Python initialization files if they appear here (red dashed line)
+__init__.py
